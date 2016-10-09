@@ -6,6 +6,8 @@ public class PriceRule implements RuleBehavior {
 
     @Override
     public boolean applyRule() {
-        return false;
+
+        System.out.println("Applying price rule");
+        return true;
     }
 }

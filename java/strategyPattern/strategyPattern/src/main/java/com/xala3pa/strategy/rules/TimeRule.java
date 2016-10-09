@@ -6,6 +6,8 @@ public class TimeRule implements RuleBehavior {
 
     @Override
     public boolean applyRule() {
-        return false;
+
+        System.out.println("applying time rule");
+        return true;
     }
 }
