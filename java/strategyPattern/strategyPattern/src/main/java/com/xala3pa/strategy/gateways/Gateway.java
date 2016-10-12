@@ -15,7 +15,7 @@ public abstract class Gateway {
 
     public abstract void display();
 
-    public boolean performRule() {
+    public String performRule() {
         return ruleBehavior.applyRule();
     }
 }

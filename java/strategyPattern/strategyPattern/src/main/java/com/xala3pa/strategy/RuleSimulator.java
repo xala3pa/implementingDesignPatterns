@@ -10,14 +10,14 @@ public class RuleSimulator {
     public static void main(String[] args) {
         Gateway gateway = new VisaGateway(new PriceRule());
         gateway.display();
-        gateway.performRule();
+        System.out.println(gateway.performRule());
 
         gateway.setRuleBehavior(new TimeRule());
         gateway.display();
-        gateway.performRule();
+        System.out.println(gateway.performRule());
 
         gateway.setRuleBehavior(new SourceRule());
         gateway.display();
-        gateway.performRule();
+        System.out.println(gateway.performRule());
     }
 }

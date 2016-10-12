@@ -4,10 +4,11 @@ import com.xala3pa.strategy.RuleBehavior;
 
 public class PriceRule implements RuleBehavior {
 
-    @Override
-    public boolean applyRule() {
+    public static final String APPLYING_PRICE_RULE = "Applying price rule";
 
-        System.out.println("Applying price rule");
-        return true;
+    @Override
+    public String applyRule() {
+
+        return APPLYING_PRICE_RULE;
     }
 }

@@ -4,10 +4,11 @@ import com.xala3pa.strategy.RuleBehavior;
 
 public class SourceRule implements RuleBehavior {
 
-    @Override
-    public boolean applyRule() {
+    public static final String APPLYING_SOURCE_RULE = "Applying source rule";
 
-        System.out.println("Applying source rule");
-        return true;
+    @Override
+    public String applyRule() {
+
+        return APPLYING_SOURCE_RULE;
     }
 }

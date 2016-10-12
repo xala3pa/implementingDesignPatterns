@@ -4,10 +4,11 @@ import com.xala3pa.strategy.RuleBehavior;
 
 public class TimeRule implements RuleBehavior {
 
-    @Override
-    public boolean applyRule() {
+    public static final String APPLYING_TIME_RULE = "Applying time rule";
 
-        System.out.println("Applying time rule");
-        return true;
+    @Override
+    public String applyRule() {
+
+        return APPLYING_TIME_RULE;
     }
 }

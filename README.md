@@ -1,4 +1,4 @@
-# implementing Design Patterns
+# Implementing Design Patterns
 
 
 Repo to test different design pattern implementations:
