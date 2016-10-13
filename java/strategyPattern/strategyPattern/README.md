@@ -6,3 +6,5 @@
 * Capture the abstraction in an interface, bury implementation details in derived classes.
 
 ## **Structure**
+
+![Strategy Structure](https://cdn.rawgit.com/xala3pa/implementingDesignPatterns/master/java/strategyPattern/strategyPattern/Strategy1.svg)
