@@ -1,5 +1,5 @@
 package com.xala3pa;
 
 public interface Observer {
-    void update();
+    void update(Subject eventPublisher);
 }

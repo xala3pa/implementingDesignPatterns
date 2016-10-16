@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class EventPublisher implements Subject {
     private ArrayList<Observer> subscribers;
-    private Object event;
+    private Event event;
 
     public EventPublisher() {
         this.subscribers = new ArrayList<>();
@@ -21,7 +21,7 @@ public class EventPublisher implements Subject {
     @Override
     public void detachObserver(Observer observer) {
         int index = subscribers.indexOf(observer);
-        if (index >= 0){
+        if (index >= 0) {
             subscribers.remove(index);
         }
     }
@@ -29,12 +29,16 @@ public class EventPublisher implements Subject {
     @Override
     public void notifyObservers() {
         for (Observer subscriber : subscribers) {
-            subscriber.update();
+            subscriber.update(this);
         }
     }
 
-    public void setEvent(Object event){
-        this.event  = event;
+    public Event getEvent() {
+        return event;
+    }
+
+    public void setEvent(Event event) {
+        this.event = event;
         notifyObservers();
     }
 }
