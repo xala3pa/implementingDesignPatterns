@@ -7,4 +7,4 @@
 
 ## **Structure**
 
-![Strategy Structure](https://cdn.rawgit.com/xala3pa/implementingDesignPatterns/master/java/strategyPattern/strategyPattern/Strategy1.svg)
+![Strategy Structure](https://cdn.rawgit.com/xala3pa/implementingDesignPatterns/master/java/strategyPattern/Strategy1.svg)
