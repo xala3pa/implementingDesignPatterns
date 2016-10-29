@@ -8,4 +8,5 @@ Repo to test different design pattern implementations:
 * [Decorator Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/decoratorPattern)
 * Factory Pattern
   * [Factory Method](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/factoryMethodPattern)
+  * [Abstract Factory Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/abstractFactoryPattern)
 
