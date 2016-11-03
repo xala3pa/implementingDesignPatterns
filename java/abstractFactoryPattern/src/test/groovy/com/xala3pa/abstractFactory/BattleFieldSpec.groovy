@@ -19,7 +19,7 @@ class BattleFieldSpec extends Specification {
     Academy sfAcademy = new SFAcademy()
 
     @Unroll
-    def "Should  received  #soldierType soldier from the #academy"() {
+    def "Should received #soldierType soldier from the #academy"() {
         expect:
         academy.recruitSoldier(soldierType).class == soldierClass
 
