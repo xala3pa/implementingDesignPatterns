@@ -4,6 +4,7 @@ import com.xala3pa.abstractFactory.soldiers.Soldier;
 
 public abstract class Academy {
     protected abstract Soldier recruitSoldier(String type);
+    public abstract String toString();
 
     public Soldier trainSoldier(String type) {
         Soldier soldier = recruitSoldier(type);

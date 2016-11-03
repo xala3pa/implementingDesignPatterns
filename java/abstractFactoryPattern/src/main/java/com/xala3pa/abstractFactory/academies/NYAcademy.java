@@ -20,4 +20,9 @@ public class NYAcademy extends Academy {
 
         return soldier;
     }
+
+    @Override
+    public String toString() {
+        return "NY Academy";
+    }
 }
