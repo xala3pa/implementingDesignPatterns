@@ -14,8 +14,8 @@
 * How to deal with multithreading?
 
   * If performace is not an issue, we can solve it adding the synchronized keyword to the `getInstance()`, in order to force every thread to wait its turn.
-  * Move to an eagerly created instance rather than a lazily created one.
-  * Use “double-checked locking” to reduce the use of synchronization in getInstance()
+  * If your application always creates and uses an instance of the Singleton or the overhead of creation and runtime aspects of the Singleton are not onerous. Move to an eagerly created instance rather than a lazily created one.
+  * If the performace is indeed a issue, use “double-checked locking” to reduce the use of synchronization in getInstance()
   
   
 ##Structure
