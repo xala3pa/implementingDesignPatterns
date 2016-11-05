@@ -15,7 +15,7 @@
 
   * If performace is not an issue, we can solve it adding the synchronized keyword to the `getInstance()`, in order to force every thread to wait its turn.
   * Move to an eagerly created instance rather than a lazily created one.
-  * “Use “double-checked locking” to reduce the use of synchronization in getInstance()
+  * Use “double-checked locking” to reduce the use of synchronization in getInstance()
   
   
 ##Structure
