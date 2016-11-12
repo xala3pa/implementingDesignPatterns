@@ -3,7 +3,7 @@ package com.xala3pa.commandPattern.command;
 import com.xala3pa.commandPattern.superHeros.SuperHero;
 
 public class StrengthPower implements  SuperPower {
-     SuperHero superHero;
+     private SuperHero superHero;
 
     public void setSuperHero(SuperHero superHero) {
         this.superHero = superHero;
