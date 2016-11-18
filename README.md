@@ -12,4 +12,5 @@ Repo to test different design pattern implementations:
 * [Singleton Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/singletonPattern)
 * [Command Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/commandPattern)
 * [Adapter Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/adapterPattern)
+* [Facade Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/facadePattern)
 
