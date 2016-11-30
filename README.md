@@ -14,4 +14,5 @@ Repo to test different design pattern implementations:
 * [Adapter Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/adapterPattern)
 * [Facade Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/facadePattern)
 * [Template Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/templatePattern)
+* [Iterator Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/iteratorPattern)
 
