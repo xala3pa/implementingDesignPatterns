@@ -17,4 +17,6 @@ Repo to test different design pattern implementations:
 * [Iterator Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/iteratorPattern)
 * [Composite Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/compositePattern)
 * [State Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/statePattern)
+* [Proxy Pattern](https://github.com/xala3pa/implementingDesignPatterns/tree/master/java/proxyPattern)
+
 

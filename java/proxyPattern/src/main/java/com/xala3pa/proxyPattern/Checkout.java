@@ -7,7 +7,7 @@ public class Checkout {
         //first time we load the gateway using de proxy
         adyen.pay();
 
-        //second tie we use the gateway in memory
+        //second time we use the gateway in memory
         adyen.pay();
     }
 }
